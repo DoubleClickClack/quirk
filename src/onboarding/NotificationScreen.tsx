@@ -44,18 +44,18 @@ export default class NotificationScreen extends React.Component<
         style={{
           paddingTop: 24 + Constants.statusBarHeight,
           backgroundColor: theme.lightOffwhite,
-          flex: 1,
+          flex: 2,
         }}
       >
         <ScrollView>
           <Image
             source={require("../../assets/notifications/notifications.png")}
             style={{
-              width: 256,
-              height: 196,
+              width: 356,
+              height: 296,
               resizeMode: "contain",
               alignSelf: "center",
-              marginBottom: 48,
+              marginBottom: 58,
             }}
           />
 
