@@ -18,10 +18,10 @@ export const TouchableCardContainer = ({
     style={{
       backgroundColor: "white",
       borderColor: theme.lightGray,
-      borderBottomWidth: 2,
-      borderRadius: 8,
-      borderWidth: 1,
-      marginBottom: 18,
+      borderBottomWidth: 3,
+      borderRadius: 9,
+      borderWidth: 2,
+      marginBottom: 19,
       flex: 1,
       ...style,
     }}
@@ -57,7 +57,7 @@ export const CardCrown = ({
     <Text
       style={{
         fontSize: 10,
-        fontWeight: "700",
+        fontWeight: "600",
         color: theme.lightText,
         letterSpacing: 1,
       }}
@@ -104,8 +104,8 @@ export const CardTextContent = ({ text }: { text: string }) => (
       fontWeight: "400",
       fontSize: 16,
       marginBottom: 8,
-      paddingLeft: 12,
-      paddingRight: 12,
+      paddingLeft: 13,
+      paddingRight: 13,
       paddingTop: 12,
       paddingBottom: 6,
     }}
